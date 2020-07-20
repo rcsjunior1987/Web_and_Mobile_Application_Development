@@ -1,0 +1,27 @@
+.Row-styles {
+    background-color: white;
+    display: flex;
+    width: 1400px;
+    height: 400px;
+    flex-direction: row;
+}
+
+.Column1-styles, .Column2-styles {
+    width: 50%;
+    height: 100%;
+} 
+
+.Column1-styles {
+    background-color:white;
+}
+
+.Column2-styles {
+    background-color: white;
+    border-left: 1px dotted black;
+}
+
+.dropdown {
+    margin-top: 1px;
+    background-color:white;
+    border-bottom: 1px dotted black;
+}
