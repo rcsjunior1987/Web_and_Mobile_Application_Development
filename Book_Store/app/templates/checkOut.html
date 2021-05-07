@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block head %}
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<div class="alert alert-warning" style="color: #343a40; border: none" role="alert">
+    {% for message in messages %}
+    {{ message }}
+    {% endfor %}
+</div>
+{% endif %}
+{% endwith %}
+<section class="bread-crumbs">
+    <div class="container-fluid">
+        <div class="wrapper row">
+            <span class="container-fluid text-dark ">
+                <a href="/home" class="text-dark">Home</a> > <a href="/shop/most-popular" class="text-dark">Shop</a> >
+                <a href="/order" class="text-dark">Order</a> > Checkout
+            </span>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block main %}
+<section>
+    <div class="container-fluid mb-3">
+        <div class="card product-detail">
+            <div class="container-fluid">
+                <div class="wrapper row">
+                    <div class="col-12">
+                        <h1>You are almost done!</h1>
+                        <p>
+                            Please provide your details to finalise the purchase and proceed with the payment
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        {{wtf.quick_form(form)}}
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <img class="d-block w-100" src="{{url_for('static', filename='img/lego_checkout.jpeg')}}"
+                            alt="checkOut">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

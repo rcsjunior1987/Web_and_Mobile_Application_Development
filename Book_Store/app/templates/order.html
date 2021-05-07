@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<div class="alert alert-warning" style="color: #343a40; border: none" role="alert">
+    {% for message in messages %}
+    {{ message }}
+    {% endfor %}
+</div>
+{% endif %}
+{% endwith %}
+<section class="bread-crumbs">
+    <div class="container-fluid">
+        <div class="wrapper row">
+            <span class="container-fluid text-dark ">
+                <a href="/home" class="text-dark">Home</a> > <a href="/shop/most-popular" class="text-dark">Shop</a> >
+                Cart
+            </span>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block main %}
+<!-- display contents of user basket -->
+
+{% for product in order.products %}
+<div class="container-fluid" style="border: none; padding: 10px">
+    <div class="card product-detail">
+        <div class="container-fluid">
+            <div class="wrapper row">
+                <div class="col-lg-3">
+                    <img style="border: none" class="img-thumbnail"
+                        src="{{url_for('static', filename=('img/' + product.image))}}">
+                </div>
+                <div class="details col-lg-9">
+                    <h5>{{product.name}}</h5>
+                    <!-- Item Description -->
+                    <p class="card-text">{{product.shortdescription}}</p>
+                    <h5>{{ "$%.2f"|format(product.price) }}</h5>
+
+                    <form method="POST" action="{{url_for('main.deleteOrderItem')}}">
+                        <input type="hidden" id="id" name="id" value="{{product.id}}">
+                        <button type="submit" class="align-self-end btn btn-secondary mb-3"><i
+                                class="far fa-trash-alt mr-1"></i>Remove</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+
+<section class="mb-3 text-center">
+    <div class="container-fluid">
+        <div class="wrapper row">
+            <div class="container-fluid text-dark ">
+                <a href="/shop/most-popular" class="btn btn-warning mt-4 mr-4"><i class="fas fa-shopping-cart"></i>Shop
+                    More</a>
+                <a href="{{ url_for('main.deleteOrder') }}" class="btn btn-secondary mt-4"><i
+                        class="far fa-trash-alt mr-1"></i>Empty Basket</a>
+                <h5 class="mt-4">Total Price: <b>${{'%0.2f'% totalPrice}}</b></h5>
+                <br>
+                <a href="{{ url_for('main.checkOut') }}" class="btn btn-danger mr-4"><i
+                        class="fas fa-arrow-circle-right"></i>checkOut</a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
