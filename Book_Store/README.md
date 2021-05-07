@@ -1,6 +1,6 @@
-# Legoland
+# BookStore
 
-Launched in mid-2020 Legoland is an ecommerce reseller website that facilitates the purchase of Lego products over the internet. It aims to provide a high level easy-to- use user experience that helps costumers of all ages to find and purchase the products they are looking for. Legoland products can be filtered on the website via several different options, such as price, reviews, categories and more.
+Launched in mid-2021 BookStore is an ecommerce reseller website that facilitates the purchase of Books over the internet. It aims to provide a high level easy-to- use user experience that helps costumers of all ages to find and purchase the products they are looking for. Books can be filtered on the website via several different options, such as price, reviews, categories and more.
 
 ---
 
