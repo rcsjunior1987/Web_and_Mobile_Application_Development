@@ -1,0 +1,12 @@
+.AgGrids-styles {
+    background-color: white;
+    width: 1400px;
+    height: 200px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    color: black;
+    font-Family: 'sans-serif';
+    font-size: medium;
+    border: 1px dotted black;
+  }
