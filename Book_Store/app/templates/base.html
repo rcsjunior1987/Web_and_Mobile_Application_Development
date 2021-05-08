@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Legoland">
+    <meta name="description" content="Isaac Asimov book store collection">
 
     <!-- Bootstrap Required Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Legoland</title>
+    <title>Isaac Asimov book store collection</title>
 
     <!-- Bootstrap CSS -->
     <link rel="shortcut icon" href="{{ url_for('static', filename='../static/img/logo.jpg')}}">
@@ -32,7 +32,7 @@
                     </a>
                 </div>
                 <a href="/" class="navbar-brand">
-                    Legoland
+                    Isaac Asimov book store collection
                 </a>
 
                 <button class="navbar-toggler" style="outline: none!important;" type="button" data-toggle="collapse"
@@ -46,7 +46,6 @@
                     <div class="navbar-nav">
                         <a class="nav-item nav-link text-center" href="/shop/most-popular">Shop</a>
                         <a class="nav-item nav-link text-center" href="/support">Support</a>
-                        <a class="nav-item nav-link text-center" href="#">About</a>
                         <div class="ml-md-4 ml-sm-0 nav-item text-center justify-content-end" style="width: 100%;">
                             <form class="form-inline text-center" action="{{ url_for('main.search') }}"
                                 style="max-width: 400px; display: inline-block">
@@ -66,21 +65,7 @@
     <main>
         {% block main %}{% endblock %}
         <section class="subscription-box bg-warning">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="subscribe">
-                            <h2 class="text-dark">Want to stay tuned?</h2>
-                            <div class="input-group">
-                                <input type="email" class="form-control" placeholder="Enter your email" aria-label=""
-                                    aria-describedby="basic-addon1">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary" type="button">Subscribe</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="container-fluid">                
             </div>
         </section>
     </main>
@@ -88,7 +73,7 @@
     <!-- Footer of the website -->
     <footer class="footer">
         <div class="py-2 bg-dark">
-            <span class="ml-2 text-light">Copyright &copy; 2020 - Legoland | All Rights Reserved</span>
+            <span class="ml-2 text-light">Copyright &copy; 2021 - Isaac Asimov book store collection | All Rights Reserved</span>
         </div>
     </footer>
 

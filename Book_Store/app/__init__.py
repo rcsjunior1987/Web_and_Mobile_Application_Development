@@ -15,7 +15,7 @@ def create_app():
     app.secret_key = 'BetterSecretNeeded123'
 
     # set the app configuration data
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///jerseyStore.sqlite'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///dataBase.sqlite'
 
     # initialize db with flask app
     db.init_app(app)

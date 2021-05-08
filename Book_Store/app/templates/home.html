@@ -13,7 +13,7 @@
 <section>
     <div class="bg-white mt-3 mb-0" style="min-height: 70px">
         <h1 class="container-fluid text-center text-dark">
-            Welcome to Legoland
+            Welcome to Isaac Asimov book store collection
         </h1>
     </div>
 </section>
@@ -25,30 +25,33 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active text-center">
-                    <div class="carousel-text d-none d-md-block">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>May the fourth be with you</span>
-                            </h2>
-                        </div>
-                    </div>
-                    <img class="d-block w-100" src="{{url_for('static', filename='img/carousel1.jpg')}}"
-                        alt="First slide">
-                </div>
-                <div class="carousel-item">
+
+            <div class="carousel-inner" style="height:550px;">
+                <div class="carousel-item active text-center" style="height:550px;">
                     <div class="carousel-text d-none d-lg-block">
                         <div class="col-md-12 text-center">
                             <h2>
-                                <span>New Star Wars figures in stock</span>
+                                <span>Here you will find all Asimov's series</span>
                             </h2>
                         </div>
                     </div>
-                    <img class="d-block w-100" src="{{url_for('static', filename='img/carousel2.jpg')}}"
+                    <img class="d-block w-100" src="{{url_for('static', filename='img/carouselFundation.jpg')}}"
+                        alt="First slide">
+                </div>
+
+                <div class="carousel-item" style="height:550px;">
+                    <div class="carousel-text d-none d-lg-block">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>From Fundation to Robot series</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img class="d-block w-100" src="{{url_for('static', filename='img/carouselRobot.jpg')}}"
                         alt="Second slide">
                 </div>
-                <div class="carousel-item">
+
+                <div class="carousel-item" style="height:550px;">
                     <div class="carousel-text d-none d-lg-block">
                         <div class="col-md-12 text-center">
                             <h2>
@@ -56,7 +59,7 @@
                             </h2>
                         </div>
                     </div>
-                    <img class="d-block w-100" src="{{url_for('static', filename='img/carousel3.jpg')}}"
+                    <img class="d-block w-100" src="{{url_for('static', filename='img/carouselStarr.jpg')}}"
                         alt="Third slide">
                 </div>
             </div>
