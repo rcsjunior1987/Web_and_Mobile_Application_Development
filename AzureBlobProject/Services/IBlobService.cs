@@ -10,8 +10,10 @@ namespace AzureBlobProject.Models.Services
         //List of the Blobs inside a container
         Task<List<string>> GetAllBlobs(string containerName);
 
+        Task<List<Blob>> GetAllBlobsWithUri(string containerName);
+
         //
-        Task<bool> UploadBlob(string blobName, IFormFile file, string containerName);
+        Task<bool> UploadBlob(string blobName, IFormFile file, string containerName, Blob blob);
 
         //
         Task<bool> DeleteBlob(string blobName, string containerName);

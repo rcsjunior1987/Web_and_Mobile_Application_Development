@@ -1,4 +1,5 @@
 ﻿using Azure.Storage.Blobs;
+using AzureBlobProject.Models;
 using AzureBlobProject.Models.Services;
 using Microsoft.AspNetCore.Mvc;
 using static System.Net.Mime.MediaTypeNames;
@@ -30,7 +31,7 @@ public class BlobController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> AddFile(string containerName, IFormFile file)
+    public async Task<IActionResult> AddFile(string containerName, Blob blob, IFormFile file)
     {
         if (file == null || file.Length < 1)
             return View();
@@ -38,7 +39,7 @@ public class BlobController : Controller
         // To avoid a file to be overwritten, it is changed to FILE NAME + _ + GUID, For instance, rcsjunior.jpg will turn rcsjunior_0001
         var fileName = Path.GetFileNameWithoutExtension(file.Name) + "_"  + Guid.NewGuid() + Path.GetExtension(file.FileName);
 
-        var result = await _blobService.UploadBlob(fileName, file, containerName);
+        var result = await _blobService.UploadBlob(fileName, file, containerName, blob);
 
         if (result)
             return RedirectToAction("Index", "Container");
@@ -56,9 +57,6 @@ public class BlobController : Controller
     public async Task<IActionResult> DeleteFile(string blobName, string containerName)
     {
         await _blobService.DeleteBlob(blobName, containerName);
-
-
-        
         return View();
     }
 

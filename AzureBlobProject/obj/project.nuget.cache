@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LKIfwG4GIzshCjRaoqelB8n5MZJYGlGEx1Bi4xH6ff9HTcLuC78jZ3BN0r9SKPXrhjRTboUGYG3G0suphKEZWA==",
+  "dgSpecHash": "yZOPF3SWWmjqc5Gw6Wa+RE4Dhgtk72ju7UI+Ohu+bAydMwt0v7+Yr55aeeBWMprN1ovuZjt002UpNLbFIKFEwg==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\GitHub\\rcsjunior1987\\Web_and_Mobile_Application_Development\\AzureFundamentals-master\\AzureBlobProject\\AzureBlobProject.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dttt1\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\dttt1\\.nuget\\packages\\azure.storage.blobs\\12.18.0\\azure.storage.blobs.12.18.0.nupkg.sha512",

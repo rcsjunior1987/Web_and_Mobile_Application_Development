@@ -10245,11 +10245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\rcsjunior1987\\Web_and_Mobile_Application_Development\\AzureFundamentals-master\\AzureBlobProject\\AzureBlobProject.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj",
       "projectName": "AzureBlobProject",
-      "projectPath": "D:\\Documents\\GitHub\\rcsjunior1987\\Web_and_Mobile_Application_Development\\AzureFundamentals-master\\AzureBlobProject\\AzureBlobProject.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj",
       "packagesPath": "C:\\Users\\dttt1\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\rcsjunior1987\\Web_and_Mobile_Application_Development\\AzureFundamentals-master\\AzureBlobProject\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dttt1\\AppData\\Roaming\\NuGet\\NuGet.Config",
