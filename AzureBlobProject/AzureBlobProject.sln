@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlobProject", "AzureBlobProject.csproj", "{5EB25D2A-67D0-4106-B03B-648536D299A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBlobProject", "AzureBlobProject.csproj", "{5EB25D2A-67D0-4106-B03B-648536D299A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTangyWeb", "..\AzureFunctionTangyWeb\AzureFunctionTangyWeb.csproj", "{485F2DB2-4901-483F-9EE2-57732C3934EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureBlobProjects", "AzureBlobProjects", "{C986E147-C99E-4520-8050-1C300FCA2511}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctionProjects", "AzureFunctionProjects", "{704941B0-9C66-44AA-B614-44CB2CA24438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{5EB25D2A-67D0-4106-B03B-648536D299A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EB25D2A-67D0-4106-B03B-648536D299A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EB25D2A-67D0-4106-B03B-648536D299A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485F2DB2-4901-483F-9EE2-57732C3934EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485F2DB2-4901-483F-9EE2-57732C3934EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485F2DB2-4901-483F-9EE2-57732C3934EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485F2DB2-4901-483F-9EE2-57732C3934EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EB25D2A-67D0-4106-B03B-648536D299A7} = {C986E147-C99E-4520-8050-1C300FCA2511}
+		{485F2DB2-4901-483F-9EE2-57732C3934EA} = {704941B0-9C66-44AA-B614-44CB2CA24438}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A0A1B0EE-827C-4746-844A-94CD9D0699B2}
