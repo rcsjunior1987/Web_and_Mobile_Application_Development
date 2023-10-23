@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureBlobProject\\AzureBlobProject.csproj": {}
+    "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureBlobProject\\AzureBlobProject.csproj": {
+    "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureBlobProject\\AzureBlobProject.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj",
         "projectName": "AzureBlobProject",
-        "projectPath": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureBlobProject\\AzureBlobProject.csproj",
-        "packagesPath": "C:\\Users\\roberto.carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureBlobProject\\obj\\",
+        "projectPath": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj",
+        "packagesPath": "C:\\Users\\dttt1\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roberto.carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dttt1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\roberto.carlos\\source\\nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -58,6 +56,10 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -82,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
