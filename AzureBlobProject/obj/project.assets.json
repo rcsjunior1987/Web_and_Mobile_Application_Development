@@ -10244,19 +10244,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dttt1\\.nuget\\packages\\": {}
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj",
+      "projectUniqueName": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureBlobProject\\AzureBlobProject.csproj",
       "projectName": "AzureBlobProject",
-      "projectPath": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\AzureBlobProject.csproj",
-      "packagesPath": "C:\\Users\\dttt1\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\rcsjunior\\AzureBlobProject\\obj\\",
+      "projectPath": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureBlobProject\\AzureBlobProject.csproj",
+      "packagesPath": "C:\\Users\\roberto.carlos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureBlobProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dttt1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\roberto.carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10264,7 +10264,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Users\\roberto.carlos\\source\\nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "net7.0": {
@@ -10326,7 +10328,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
