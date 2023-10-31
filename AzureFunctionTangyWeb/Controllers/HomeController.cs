@@ -40,8 +40,10 @@ public class HomeController : Controller
             , System.Text.Encoding.UTF8
             , "application/json"))
         {
+            //Azure function URL                                                     
             HttpResponseMessage response = await client.PostAsync("http://localhost:7113/api/OnSalesUploadWriteToQueue", content);
 
+            //
             string returnValue = response.Content.ReadAsStringAsync().Result;
         }
 

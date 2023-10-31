@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureBlobProjects", "AzureB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctionProjects", "AzureFunctionProjects", "{704941B0-9C66-44AA-B614-44CB2CA24438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTangyFunction", "..\AzureTangyFunction\AzureTangyFunction.csproj", "{95836097-E761-4C97-A8ED-753D505CE3CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTangyFunction", "..\AzureTangyFunction\AzureTangyFunction.csproj", "{95836097-E761-4C97-A8ED-753D505CE3CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
