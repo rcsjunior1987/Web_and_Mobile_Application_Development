@@ -2,11 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+<<<<<<< HEAD
       "Azure.Core/1.25.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
           "System.Diagnostics.DiagnosticSource": "4.6.0",
+=======
+      "Azure.Core/1.35.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "System.Diagnostics.DiagnosticSource": "6.0.1",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Encodings.Web": "4.7.2",
@@ -14,16 +22,25 @@
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
+<<<<<<< HEAD
           "lib/net5.0/Azure.Core.dll": {
+=======
+          "lib/net6.0/Azure.Core.dll": {
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net5.0/Azure.Core.dll": {
+=======
+          "lib/net6.0/Azure.Core.dll": {
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
             "related": ".xml"
           }
         }
       },
+<<<<<<< HEAD
       "Azure.Identity/1.4.0": {
         "type": "package",
         "dependencies": {
@@ -54,15 +71,30 @@
         },
         "compile": {
           "lib/netstandard2.1/Azure.Storage.Blobs.dll": {
+=======
+      "Azure.Storage.Blobs/12.18.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Common": "12.17.0",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/net6.0/Azure.Storage.Blobs.dll": {
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/netstandard2.1/Azure.Storage.Blobs.dll": {
+=======
+          "lib/net6.0/Azure.Storage.Blobs.dll": {
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
             "related": ".xml"
           }
         }
       },
+<<<<<<< HEAD
       "Azure.Storage.Common/12.12.0": {
         "type": "package",
         "dependencies": {
@@ -71,15 +103,30 @@
         },
         "compile": {
           "lib/netstandard2.0/Azure.Storage.Common.dll": {
+=======
+      "Azure.Storage.Common/12.17.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.35.0",
+          "System.IO.Hashing": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Azure.Storage.Common.dll": {
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/netstandard2.0/Azure.Storage.Common.dll": {
+=======
+          "lib/net6.0/Azure.Storage.Common.dll": {
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
             "related": ".xml"
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Html.Abstractions/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -201,6 +248,8 @@
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.Storage.dll": {}
         }
       },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -212,6 +261,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -958,6 +1008,8 @@
           }
         }
       },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -971,6 +1023,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1056,6 +1109,9 @@
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
+=======
+      "System.Diagnostics.DiagnosticSource/6.0.1": {
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1074,6 +1130,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Diagnostics.TraceSource/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1173,6 +1230,8 @@
           }
         }
       },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "System.IO.Hashing/6.0.0": {
         "type": "package",
         "compile": {
@@ -1189,6 +1248,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Memory/4.5.4": {
         "type": "package",
         "compile": {
@@ -1198,6 +1258,8 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "System.Memory.Data/1.0.2": {
         "type": "package",
         "dependencies": {
@@ -1224,6 +1286,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Reflection/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1301,6 +1364,8 @@
           }
         }
       },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -1317,6 +1382,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1464,6 +1530,8 @@
           }
         }
       },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "System.Text.Encodings.Web/4.7.2": {
         "type": "package",
         "compile": {
@@ -1490,6 +1558,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Threading/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1527,6 +1596,8 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "compile": {
@@ -1535,6 +1606,7 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+<<<<<<< HEAD
       },
       "System.Windows.Extensions/4.7.0": {
         "type": "package",
@@ -1557,41 +1629,71 @@
             "rid": "win"
           }
         }
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       }
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "Azure.Core/1.25.0": {
       "sha512": "X8Dd4sAggS84KScWIjEbFAdt2U1KDolQopTPoHVubG2y3CM54f9l6asVrP5Uy384NWXjsspPYaJgz5xHc+KvTA==",
       "type": "package",
       "path": "azure.core/1.25.0",
+=======
+    "Azure.Core/1.35.0": {
+      "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
+      "type": "package",
+      "path": "azure.core/1.35.0",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
+<<<<<<< HEAD
         "azure.core.1.25.0.nupkg.sha512",
+=======
+        "azure.core.1.35.0.nupkg.sha512",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
         "azure.core.nuspec",
         "azureicon.png",
         "lib/net461/Azure.Core.dll",
         "lib/net461/Azure.Core.xml",
+<<<<<<< HEAD
         "lib/net5.0/Azure.Core.dll",
         "lib/net5.0/Azure.Core.xml",
+=======
+        "lib/net472/Azure.Core.dll",
+        "lib/net472/Azure.Core.xml",
+        "lib/net5.0/Azure.Core.dll",
+        "lib/net5.0/Azure.Core.xml",
+        "lib/net6.0/Azure.Core.dll",
+        "lib/net6.0/Azure.Core.xml",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
         "lib/netcoreapp2.1/Azure.Core.dll",
         "lib/netcoreapp2.1/Azure.Core.xml",
         "lib/netstandard2.0/Azure.Core.dll",
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
+<<<<<<< HEAD
     "Azure.Identity/1.4.0": {
       "sha512": "vvjdoDQb9WQyLkD1Uo5KFbwlW7xIsDMihz3yofskym2SimXswbSXuK7QSR1oHnBLBRMdamnVHLpSKQZhJUDejg==",
       "type": "package",
       "path": "azure.identity/1.4.0",
+=======
+    "Azure.Storage.Blobs/12.18.0": {
+      "sha512": "IUqHRXnabXCzmmvkzqPK4FuGzLxmKSugDEt5Hm5B/JlJFR+aHDsPW4nCLbG0txThqBSKPqcBBU/oA6c5TaFJgA==",
+      "type": "package",
+      "path": "azure.storage.blobs/12.18.0",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
+<<<<<<< HEAD
         "azure.identity.1.4.0.nupkg.sha512",
         "azure.identity.nuspec",
         "lib/netstandard2.0/Azure.Identity.dll",
@@ -1611,28 +1713,51 @@
         "azure.storage.blobs.12.13.0.nupkg.sha512",
         "azure.storage.blobs.nuspec",
         "azureicon.png",
+=======
+        "azure.storage.blobs.12.18.0.nupkg.sha512",
+        "azure.storage.blobs.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Blobs.dll",
+        "lib/net6.0/Azure.Storage.Blobs.xml",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
         "lib/netstandard2.0/Azure.Storage.Blobs.dll",
         "lib/netstandard2.0/Azure.Storage.Blobs.xml",
         "lib/netstandard2.1/Azure.Storage.Blobs.dll",
         "lib/netstandard2.1/Azure.Storage.Blobs.xml"
       ]
     },
+<<<<<<< HEAD
     "Azure.Storage.Common/12.12.0": {
       "sha512": "Ms0XsZ/D9Pcudfbqj+rWeCkhx/ITEq8isY0jkor9JFmDAEHsItFa2XrWkzP3vmJU6EsXQrk4snH63HkW/Jksvg==",
       "type": "package",
       "path": "azure.storage.common/12.12.0",
+=======
+    "Azure.Storage.Common/12.17.0": {
+      "sha512": "/h8SpUkxMuQy/MbNFeJQGmhYt3JnYfEiGeDojtNgLNzzhyDnRYgjF3ZKYgjORYQpn0Spr+4+v2MZy+0GNJBLrg==",
+      "type": "package",
+      "path": "azure.storage.common/12.17.0",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
+<<<<<<< HEAD
         "azure.storage.common.12.12.0.nupkg.sha512",
         "azure.storage.common.nuspec",
         "azureicon.png",
+=======
+        "azure.storage.common.12.17.0.nupkg.sha512",
+        "azure.storage.common.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Common.dll",
+        "lib/net6.0/Azure.Storage.Common.xml",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
         "lib/netstandard2.0/Azure.Storage.Common.dll",
         "lib/netstandard2.0/Azure.Storage.Common.xml"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Html.Abstractions/2.1.1": {
       "sha512": "CS/2N0d0JUdhYOrnd9Ll6O2Lb++CQaToKem6NyF+9RIgdL3tEZJOJHXcFWSXUSDqML98XQzbtnV+dCT22cBrRw==",
       "type": "package",
@@ -1727,6 +1852,8 @@
         "webjobs.png"
       ]
     },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1752,6 +1879,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -2706,6 +2834,8 @@
         "ncrontab.signed.nuspec"
       ]
     },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -2736,6 +2866,7 @@
         "packageIcon.png"
       ]
     },
+<<<<<<< HEAD
     "runtime.native.System/4.3.0": {
       "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
@@ -3023,6 +3154,12 @@
       "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
       "path": "system.diagnostics.diagnosticsource/6.0.0",
+=======
+    "System.Diagnostics.DiagnosticSource/6.0.1": {
+      "sha512": "KiLYDu2k2J82Q9BJpWiuQqCkFjRBWVq4jDzKKWawVi9KWzyD0XG3cmfX0vqTQlL14Wi9EufJrbL0+KCLTbqWiQ==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/6.0.1",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3039,11 +3176,16 @@
         "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
+<<<<<<< HEAD
         "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+=======
+        "system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Diagnostics.TraceSource/4.3.0": {
       "sha512": "VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
       "type": "package",
@@ -3290,6 +3432,8 @@
         "system.io.nuspec"
       ]
     },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
     "System.IO.Hashing/6.0.0": {
       "sha512": "Rfm2jYCaUeGysFEZjDe7j1R4x6Z6BzumS/vUT5a1AA/AWJuGX71PoGB0RmpyX3VmrGqVnAwtfMn39OHR8Y/5+g==",
       "type": "package",
@@ -3313,6 +3457,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Memory/4.5.4": {
       "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
       "type": "package",
@@ -3336,6 +3481,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
     "System.Memory.Data/1.0.2": {
       "sha512": "JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
       "type": "package",
@@ -3401,6 +3548,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Reflection/4.3.0": {
       "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
@@ -3724,6 +3872,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -3749,6 +3899,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Runtime.Extensions/4.3.0": {
       "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
@@ -4173,6 +4324,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
     "System.Text.Encodings.Web/4.7.2": {
       "sha512": "iTUgB/WtrZ1sWZs84F2hwyQhiRH6QNjQv2DkwrH+WP6RoFga2Q1m3f9/Q7FG8cck8AdHitQkmkXSY8qylcDmuA==",
       "type": "package",
@@ -4219,6 +4372,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Threading/4.3.0": {
       "sha512": "VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
       "type": "package",
@@ -4383,6 +4537,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
     "System.Threading.Tasks.Extensions/4.5.4": {
       "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "type": "package",
@@ -4419,6 +4575,7 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+<<<<<<< HEAD
     },
     "System.Windows.Extensions/4.7.0": {
       "sha512": "CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
@@ -4440,10 +4597,13 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+=======
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Razor.Runtime >= 2.1.2",
       "Microsoft.Azure.WebJobs.Extensions >= 5.0.0",
       "Microsoft.Azure.WebJobs.Host.Storage >= 5.0.0",
@@ -4451,23 +4611,26 @@
       "Microsoft.Extensions.Http >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.1",
+=======
+      "Azure.Storage.Blobs >= 12.18.0",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dttt1\\.nuget\\packages\\": {}
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\rcsjunior\\AzureFunctionTangyWeb\\AzureFunctionTangyWeb.csproj",
+      "projectUniqueName": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureFunctionTangyWeb\\AzureFunctionTangyWeb.csproj",
       "projectName": "AzureFunctionTangyWeb",
-      "projectPath": "D:\\Documents\\GitHub\\rcsjunior\\AzureFunctionTangyWeb\\AzureFunctionTangyWeb.csproj",
-      "packagesPath": "C:\\Users\\dttt1\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\rcsjunior\\AzureFunctionTangyWeb\\obj\\",
+      "projectPath": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureFunctionTangyWeb\\AzureFunctionTangyWeb.csproj",
+      "packagesPath": "C:\\Users\\roberto.carlos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureFunctionTangyWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dttt1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\roberto.carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4475,7 +4638,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Users\\roberto.carlos\\source\\nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "net6.0": {
@@ -4493,6 +4658,7 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Razor.Runtime": {
             "target": "Package",
             "version": "[2.1.2, )"
@@ -4520,6 +4686,11 @@
           "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
             "version": "[7.0.1, )"
+=======
+          "Azure.Storage.Blobs": {
+            "target": "Package",
+            "version": "[12.18.0, )"
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -4537,6 +4708,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.24, 6.0.24]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.24, 6.0.24]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.24, 6.0.24]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.24, 6.0.24]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4545,7 +4734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

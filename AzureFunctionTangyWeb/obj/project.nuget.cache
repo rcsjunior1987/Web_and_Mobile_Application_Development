@@ -1,9 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "+xnGQITs5cajWxxNsM7ygYwl2Y1b9B6ZWt5HN4PVmEJesNIitHX3LnfDJbIgYQxprTRObGV/n71ENwJG8EcF+A==",
+=======
+  "dgSpecHash": "0Z/Xa3h110rKfyzpsz+t2+uJjINsFHJvny5/zqPoJQ8vXBCnrwxA3Znp0+sNu/JgQGmProkBYGHtGkjir9vu8A==",
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
   "success": true,
-  "projectFilePath": "D:\\Documents\\GitHub\\rcsjunior\\AzureFunctionTangyWeb\\AzureFunctionTangyWeb.csproj",
+  "projectFilePath": "C:\\Users\\roberto.carlos\\source\\repos_trainings\\AzureFunctionTangyWeb\\AzureFunctionTangyWeb.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\dttt1\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\dttt1\\.nuget\\packages\\azure.identity\\1.4.0\\azure.identity.1.4.0.nupkg.sha512",
     "C:\\Users\\dttt1\\.nuget\\packages\\azure.storage.blobs\\12.13.0\\azure.storage.blobs.12.13.0.nupkg.sha512",
@@ -97,6 +102,25 @@
     "C:\\Users\\dttt1\\.nuget\\packages\\system.threading.tasks.dataflow\\4.8.0\\system.threading.tasks.dataflow.4.8.0.nupkg.sha512",
     "C:\\Users\\dttt1\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\dttt1\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+=======
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\azure.storage.blobs\\12.18.0\\azure.storage.blobs.12.18.0.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\azure.storage.common\\12.17.0\\azure.storage.common.12.17.0.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\system.io.hashing\\6.0.0\\system.io.hashing.6.0.0.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\roberto.carlos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
+>>>>>>> 192f70b87c2c8852bcac03804ee38a803ce9f400
   ],
   "logs": []
 }
